@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="lesson-wrapper">
+		<h3>Выбери цвет фона</h3>
+		<div class="form-group">
+			<label class='input-label'> Выбери цвет
+				<input type="color" name="color-input" class='color-input'>
+			</label>
+			<button class='button change-background'>Применить</button>
+
+		</div>
+	</div>
+
+	<!--задание 2-->
+
+	<div class="lesson-wrapper">
+		<h3>Выбери цвета фона и шрифта</h3>
+		<div class="form-group">
+			<div class="form-group__inputs">
+				<label class='input-label'> Выбери цвет фона
+					<input type="color" name="color-input" class='color-bg'>
+				</label>
+				<label class='input-label'> Выбери цвет шрифта
+					<input type="color" name="color-input" class='color-font'>
+				</label>
+			</div>
+
+				<button class='button change-colors'>Применить</button>
+				<button class='button reset-colors'>Сбросить</button>
+		</div>
+	</div>
+
+	<!--задание 3-4-->
+
+	<div class="lesson-wrapper">
+		<h3>Выбери paзмер шрифта</h3>
+		<div class="form-group__inputs">
+			<div class="form-group" style='min-width:350px;'>
+
+				<div class="range-block">
+					<input type="range"  class='range-input' min='14' max='48' step='1' value='16' oninput='changeFontSizeNum()'>
+					<div class="range-scale">
+						<span>14px</span>
+						<span>48px</span>
+					</div>
+					<div class="range-value">
+						<span>шрифт:</span>
+						<span id='fontSizeNum'>20</span><span>&nbsp;px</span>
+					</div>
+				</div>
+
+			</div>
+			<div class="text-group">
+				<p class='text-group-paragrafe'>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis cum voluptate provident velit voluptates facere.
+				</p>
+
+			</div>
+		</div>
+	</div>
+
+	<!--задание 5-->
+
+	<div class="lesson-wrapper">
+		<h3>Выбери цвет</h3>
+		<div class="form-group__inputs">
+			<div class="form-group" style='min-width:600px;'>
+
+				<div class="range-block">
+					<input type="range"  class='range-input range-input-one' min='0' max='255' step='1' oninput="applyColor()">
+					<div class="range-scale">
+						<span>0</span>
+						<span>255</span>
+					</div>
+
+				</div>
+				<div class="range-block">
+					<input type="range"  class='range-input range-input-two' min='0' max='255' step='1' oninput="applyColor()">
+					<div class="range-scale">
+						<span>0</span>
+						<span>255</span>
+					</div>
+
+				</div>
+				<div class="range-block">
+					<input type="range"  class='range-input range-input-three' min='0' max='255' step='1' oninput="applyColor()">
+					<div class="range-scale">
+						<span>0</span>
+						<span>255</span>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="color-block"></div>
+
+
+		</div>
+	</div>
+
+	<!-- <script src='main3.js'></script> -->
+	<script src='js.js'></script>
+</body>
+</html>

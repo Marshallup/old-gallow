@@ -1,0 +1,92 @@
+body{
+	font-size: 20px;
+	font-family: sans-serif;
+}
+button{
+	height: 40px;
+	border: 1px solid blue;
+	color: blue;
+	text-align: center;
+	width: 200px;
+	background-color: #fff;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 700;
+}
+button:hover{
+	background-color: blue;
+	color:#fff;
+	border-color:#fff;
+
+}
+button:active{
+	opacity: .7;
+}
+.lesson-wrapper{
+	padding: 30px;
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 2px dashed #cdcdcd;
+}
+label{
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+.form-group__inputs{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.range-input{
+	margin-top: 34px;
+	margin-bottom: 16px;
+	width: 100%;
+}
+.range-block{margin-bottom: 24px;}
+
+
+.range-scale{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	color: red;
+}
+.text-group{padding-left: 48px;}
+#fontSizeNum{
+	display: inline-block;
+	padding-top: 5px;
+	min-width: 60px;
+	min-height: 30px;
+	text-align: center;
+	border-bottom:1px solid blue;
+	margin-top: 24px;
+}
+.color-block{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	width: 300px;
+	height: 300px;
+	border:2px solid #000;
+	margin-left: 200px;
+	border-radius: 50%;
+}
+.innerText{
+	color: #fff;
+	font-weight: 700;
+}
+.radius-text{
+	color: white
+}
